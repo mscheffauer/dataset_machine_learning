@@ -1,0 +1,28 @@
+{
+    "plot_types": {
+        "age": "",
+        "sex": "",
+        "cp": "",
+        "trestbps": "",
+        "chol": "",
+        "fbs": "",
+        "restecg": "",
+        "thalach": "",
+        "exang": "",
+        "oldpeak": "",
+        "slope": "",
+        "ca": "",
+        "thal": "",
+        "target": ""
+    },
+    "target_feature": "target",
+    "column_info_file": "column_info_heart_disease.json",
+    "data_folder": "heart_disease_data",
+    "dataset_name": "Heart Disease Dataset",
+    "na_characters": ["?"],
+    "binarize_threshold": 1,
+    "test_size": 0.33,
+    "random_state_for_split": 42,
+    "features_to_use_for_classification": ["all"],
+    "impute_strategy": "mean" 
+}
